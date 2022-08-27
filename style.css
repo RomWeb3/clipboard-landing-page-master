@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*, *::before, *::after {    
+    margin: 0;    
+    padding: 0;    
+    box-sizing: border-box;    
+    list-style: none;    
+    text-decoration: none;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5em 2em;
+    text-align: center;
+}
+
+.logo {
+    height: 12.5em;
+    width: 12.5em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.7em;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 2.5em;
+
+}
+
+.btn {
+    white-space: pre;
+}
+
+button {
+    width: 100%;
+    max-width: 310px;
+    cursor: pointer;
+    margin-top: 1em;
+    height: 2.75em;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: hsl(233, 100%, 69%);
+    -webkit-box-shadow: inset 0px -2px 1px rgba(51, 51, 51, 0.502);
+    -moz-box-shadow:    inset 0px -2px 1px rgba(51, 51, 51, 0.502);
+    box-shadow:         inset 0px -2px 1px rgba(51, 51, 51, 0.502);
+    transition: ease 0.2s;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+.btnGreen {
+    background: hsl(171, 66%, 44%);
+}
+
+h2 {
+    margin-top: 5em;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main img {
+    width: 100%;
+    max-width: 32.5em;
+    margin: 3.5em 0;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 2em 0 0 0;
+    margin-bottom: 15px;
+}
+
+.content h2 {
+    margin-top: 2em;
+}
+
+.icon1 {
+    height: 4em;
+    width: 4em;
+    margin: 7.5em 0 -0.5em 0;
+}
+
+.icon2 {
+    height: 4em;
+    width: 4em;
+    margin: 5em 0 -0.5em 0;
+}
+
+.icon3 {
+    height: 3em;
+    width: 5em;
+    margin: 5em 0 -0.5em 0;
+}
+
+.logos {
+    margin: 8em 0;
+    max-width: 250px;
+}
+
+.partner {
+    width: 100%;
+    height: 100%;
+    max-width: 160px;
+    align-content: center;
+}
+
+.footer {
+    margin: 0 0 10em 0;
+}
+
+.footer h2 {
+    padding: 0 1em;
+    margin: 2em 0 0 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #f5f6f8;
+    background-size: contain;
+    font-size: 1.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.logoFooter {
+    height: 55px;
+    width: 55px;
+}
+
+.links {
+    margin: 1em 0;
+}
+
+.link {
+    margin: 1.5em 0;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+i {
+    margin: 0 0.75em;
+    cursor: pointer;
+}
+
+i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+@media screen and (min-width: 1280px) {
+    /* *{border: 1px solid black}; */
+
+    body {
+        background: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .logo {
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .container {
+        max-width: 70.5em;
+    }
+
+    button {
+        max-width: 225px;
+        margin: 0 15px 0 0;
+    }
+
+    h2 {
+        font-size: 3.6em;
+        margin-top: 4em;
+    }
+
+
+    aside {
+        max-width: 350px;
+        text-align: left;
+        position: absolute;
+        left: 600px; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 65px;
+
+    }
+
+    aside h3 {
+        font-size: 2.5em;
+    }
+
+    aside p {
+        font-size: 1.6em;
+        line-height: 1.75em;
+
+    }
+
+    .img img {
+        max-width: 750px;
+        position: absolute;
+        left: -30px;
+        margin-top: 60px;
+    }
+
+    .wrap {
+        margin-top: 650px;
+    }
+
+    .wrap p {
+        max-width: 745px;
+    }
+
+    .wrap img {
+        max-width: 750px;
+    }
+
+    .content h3 ~ p {
+        font-size: 1.55em;
+        line-height: 1.75em;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .wrapContent {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .block {
+        width: 32%;
+    }
+
+    .icon1 {
+        margin: 5em 0 -0.5em 0;
+    }
+
+    .logos {
+        width: 80%;
+        max-width: 1125px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .partner {
+        max-height: 55px;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 140px;
+        padding: 0 4em;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 45%;
+        max-width: 750px;
+        justify-items: flex-start;
+    }
+
+    .link {
+        margin: 0.75em;
+    }
+
+    .link:nth-child(2), .link:nth-child(4) {
+        grid-row-start: 2;
+    }
+
+    i {
+        margin: 0 0.45em;
+    }
+
+    .btn {
+        white-space: inherit;
+    }
+
+    .footer p {
+        white-space: pre;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    aside {
+        max-width: 350px;
+        margin: 65px 10% 0 0;
+        left: 600px; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+
+    }
+
+    .img img {
+        max-width: 750px;
+        position: absolute;
+        left: -820px; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+}
